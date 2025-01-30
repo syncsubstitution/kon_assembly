@@ -1,0 +1,64 @@
+\documentclass[11pt, a4paper]{scrartcl}
+
+\usepackage[english]{babel}
+\usepackage[paper=a4paper,bottom=3cm,top=3cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{luainputenc}
+\usepackage{etoolbox}
+
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{hyperref}
+
+\usepackage{epstopdf}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\newcommand*{\rom}[1]{\expandafter\uppercase\expandafter{\romannumeral #1 \relax}}
+\newcounter{RowNum}
+\newcommand{\RowNum}{\stepcounter{RowNum}\arabic{RowNum}}
+\preto{\tabular}{\setcounter{RowNum}{0}}
+
+\begin{document}
+
+\begin{center}
+    Themenausarbeitung im Rahmen der Schlüsselqualifikation eines\\ \emph{\LaTeX-Einführungskures}\\ an der Universität Stuttgart.
+    \vspace{1cm}\\
+\end{center}
+
+\tableofcontents
+
+\section{Zusammenbauanleitung\label{AnleitungMain}}
+
+Der Zusammenbau des Helikopters erfolgt in mehreren Phasen, und muss in der vorgegebenen Reihenfolge durchgeführt werden, um die Konstruktion aller Bauteile (BT) zu ermöglichen. Begonnen wird mit dem Motor und dem Getriebe. Die Montage der Bauteilen auf den drei Getriebevollwellen (zwei kurze, eine lange mit Rotoranschluss, respektiv Bauteile \hyperlink{Welle1}{XX}, XY, XZ) erfolgt von "unten" nach "oben" - siehe Bild %\label{BildWellen}
+für die Orientation der jeweiligen Wellen. Als erstes wird an allen Wellen der unterste Sicherungsring, das erste Lager und der darauf folgende Sicherungsring montiert. Hierbei handelt es sich für \hyperlink{Welle1}{Welle \rom{1}} um Bauteile XXXXXX, Welle  \rom{2} um XZXZXZ und Welle \rom{3} um XYXYXY. Ist dies geschehen, können die drei Vollwellen in die ersten drei Gehäuseplatten montiert werden. Hierbei handelt es sich um die Bauteile \hyperlink{list_Platte1}{XX}
+\hyperlink{list_Platte1}{XY} und \hyperlink{list_Platte1}{XZ}. Zuerst muss der Sicherungsring in Platte 1 eingelegt werden, dann wird Platte 2 auf die Lager montiert. Am Ende kann die dritte Platte als Deckel auf die beiden Platten gelegt werden. 
+
+
+\newpage
+\begin{table}[h!]
+\caption{Stueckliste}
+\label{tab:Stueckliste_Temp}
+\begin{tabular}{c|l}
+    \textbf{Nr.} & \textbf{Bauteil} \\
+    \hline
+    \hypertarget{Welle1}{\RowNum} & Welle\\
+    \RowNum & Getriebewelle Innen\\
+    \RowNum & Vollwelle\\
+    \RowNum & Hohlwelle\\
+    \RowNum & Gehäusehülle Stehfüße\\
+    \RowNum & Gehäusehülle Motor\\
+    \hypertarget{list_Platte1}{\RowNum} & Getriebeplatte 1\\
+    \RowNum & Getriebeplatte 2\\
+    \RowNum & Getriebeplatte 3\\
+    \RowNum & Getriebeplatte 4\\
+    \RowNum & Getriebeplatte 5\\
+    \RowNum & Getriebeplatte 6\\
+    \RowNum & Getriebeplatte 7\\
+    \RowNum & Getriebeplatte 9\\
+    \RowNum & Getriebeplatte 9\\
+\end{tabular}
+\end{table}
+
+\end{document}
