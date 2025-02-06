@@ -12,9 +12,11 @@
 \usepackage{subcaption}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage{ulem}
 
 \usepackage{epstopdf}
 \usepackage{amsmath}
+\usepackage{eurosym}
 %\usepackage{amsfonts}
 
 \newcommand{\CaptSpac}{-10pt}
@@ -35,6 +37,8 @@
 
 \tableofcontents
 
+\newpage
+
 \section{Zusammenbauanleitung\label{AnleitungMain}}
 \subsection{Erläuterung zu Begrifflichkeiten und Verfahren}
 \begin{wrapfigure}{r}{0.31\textwidth}  
@@ -54,7 +58,7 @@
   \fbox{\includegraphics[width=.3\textwidth]{../TexBilder/Bauschritt4.png}}
   \vspace{\CaptSpac}
   \caption{\label{fig:Bauschritt4}Gehäuseplatte 3 und Lager montiert}
-  \vspace{-80pt}
+  \vspace{-70pt}
 \end{wrapfigure}
 Der Zusammenbau des Helikopters erfolgt in mehreren Phasen, und muss in der vorgegebenen Reihenfolge durchgeführt werden, um die Konstruktion aller Bauteile (BT) zu ermöglichen. In manchen Darstellungen fehlen Bauteile, die im Text erwähnt sind. Hier gilt immer: Dem Text ist zu folgen! 
 Begonnen wird mit dem Motor und dem Getriebe. Die Montage der Bauteilen auf den drei Getriebevollwellen (zwei kurze, eine lange mit Rotoranschluss, respektiv BT \hyperlink{Welle1}{12}, 13, 14) \allowbreak erfolgt von ''unten'' nach ''oben'' - siehe Abbildung \ref{fig:WellenOverview} für die Orientierung der jeweiligen \allowbreak Wellen.
@@ -62,7 +66,7 @@ Begonnen wird mit dem Motor und dem Getriebe. Die Montage der Bauteilen auf den 
 Als erstes wird an den äußeren Getriebewellen das erste Lager und der darauf folgende Sicherungsring montiert. Hierbei handelt es sich um Bauteile 36 respektive 51. Ist dies geschehen (Abbildung \ref{fig:Bauschritt1}), können die drei Vollwellen in die ersten zwei Gehäuseplatten montiert werden. Hierbei handelt es sich um die Bauteile \hyperlink{list_Platte1}{18} und \hyperlink{list_Platte1}{19}. Die Lager liegen wie in der Abbildung auf den vorstehenden Lochsegmenten, und werden mit der zweiten Gehäuseplatte gesichert. Danach wird die Rotorvollwelle (BT 14) in die noch freie Bohrung eingefügt. Ist dies erledigt (Abbildung \ref{fig:Bauschritt2}), können die unteren drei Zahnräder an den Getriebevollwellen befestigt werden. Hierfür wird an den äußeren beiden Wellen ein Sicherungsring (9mm, BT 51) angebracht, auf dem die Zahnräder - für Welle \rom{1} und \rom{2} respektive BT 8 und 9 - ruhen. Für die Rotorvollwelle ruht das Zahnrad (BT 11) auf dem Motoranschluss. Die Zahnräder sind jeweils auf den Polygonsegmente zu montieren, so das bei den äußeren Zahnrädern die Vertiefung in der Radoberfläche nach ''unten'' zeigen, also den Sicherungsring umschließen. Danach ist über allen Rädern an der Welle ein 8mm Sicherungsring (BT 50) zu befestigen.
 \subsection{Getriebewellen, mittlere Zahnräder und \allowbreak Halterung}
 Die Rotorvollwelle und die mittlere Getriebewelle erhalten noch einen zweiten 8mm Sicherungring, bevor die dritte Gehäuseplatte (BT 20) über alle Wellen gelegt wird. Auf den Wellen auf denen zuvor der Sicherungring montiert wurde, wird nun jeweils ein 8mm Rillenkugellager (BT 35), sowie ein darauf folgender 8mm Sicherungring (BT 50) befestigt. Es folgt Gehäuseplatte 4 (BT 21) und an der Rotorvollwelle wieder ein 8mm Sicherungring (BT 50), die Gehäuseplatte 5 (BT 22) und ein 8mm Rillenkugellager (BT 35). An der äußeren Getriebewelle wird knapp oberhalb der Platte ein 8mm Sicherungring (BT 50) angebracht.
-
+\newpage
 \subsection{Obere Zahnräder und Rotorhohlwelle}
 \begin{wrapfigure}{r}{0.31\textwidth}
   \vspace{-10pt}
@@ -131,11 +135,831 @@ Das Getriebe gilt es nun in dem ersten Gehäuseteil (BT 16) zu lagern. Hierfür 
   \fbox{\includegraphics[width=0.3\textwidth]{../TexBilder/Bauschritt10.png}}
   \vspace{\CaptSpac}
   \caption{\label{fig:Bauschritt10}Batterie und Controlstack sowie Getriebegehäuse mit Motor auf der Bodenplatte} 
+  \fbox{\includegraphics[width=0.3\textwidth]{../TexBilder/Bauschritt11.png}}
+  \vspace{\CaptSpac}
+  \caption{\label{fig:Bauschritt11}Helikopter nach Montage des Aufbaus}
   \vspace{-10pt}
 \end{wrapfigure}
 Die Montage auf der Bodenplatte beginnt mit den beiden Landebeinen (BT 31), die mit 5mm Passschrauben (BT 44), Unterlegscheiben (BT 48)  und Kronmutern (46) montiert und mit Splinten (BT 55) gesichert wird. Auf dem Landebein das bündig mit der Kante der Bodenplatte montiert wurde - diese Seite ist für den Rest des Zusammenbaus das ''hintere Ende'' - wird noch der Payloadsimulator festgeschraubt, dies geschieht mit zwei 4mm Passschrauben (BT 45).
 
 Der Motor und das Getriebegehäuse werden mit jeweils 6 4mm Passschrauben der Länge 10mm (BT 40), Unterlegscheiben (BT 56) und Splinten (BT 49) befestigt und gesichert. Genau so werden auch Batterie und Controlstack auf der Bodenplatte befestigt, siehe Abbildung \ref{fig:Bauschritt10} für die Anordnung der Bauteile. 
 
+Um die Auftriebskraft effektiv in die Bodenplatte weiterleiten zu können, wird ein Aufbau um und über das Getriebegehäuse gebaut, dieser besteht aus jeweils zwei ''vorderen'' (BT 28) und ''hinteren'' Stützen (BT 31) sowie Horizontalverbindungen (BT 29 \& 30) und einem Deckel (BT 26). Die vier Stützen werden - mit zwei 4mm Passschrauben der Länge 10mm sowie passenden Unterlegscheiben und Splinten für die ''vorderen'' bzw. zwei 4mm Passschrauben der Länge 13mm und passenden Unterlegscheiben und Splinten für die ''hinteren'' - montiert. Entlang von beiden Horizontalverbindungen sind jeweils vier Bohrungen, davon zwei in sichtbar geringerem Abstand. Diese kennzeichnen das ''hintere'' Ende für das jeweilige Bauteil, ist diese korrekt, so zeigt die Fase nach ''innen'', also in Richtung Motor. Nun lassen sich die Verbindungsstreben auf die Stützen montieren, hierfür wird vorne jeweils eine 4mm Passschrauben der Länge 14mm, hinten eine 4mm Passschraube der Länge 11mm mit passenden Unterlegscheiben und Splinten verwendet. 
+Der Deckel wird nun mit 4mm Passschrauben (Länge: 11mm, BT 42) in die freigebliebenen Bohrlöcher der Horizontalverbindungen eingeschraubt, hierbei werden wieder Unterlegscheiben und Splinte verwendet, um die Schrauben zu sichern. 
+
+Um den Helikopter fertig zu stellen, können nun die Rotoren an den Achsen montiert werden. Es ist darauf zu achten die korrekten Rotoren zu wählen, da sonst kein Auftrieb erzeugt wird! Zuerst wird an der Hohlwelle ein 15mm Sicherungsring angebracht, bevor der Rotor (BT 6) auf die Keilwellen-Verbindung geschoben und mit einem weiteren 15mm Sicherungsring befestigt wird. An der Vollwelle wird ebenso ein 8mm Sicherungsring angebracht, der Rotor auf die Polygonverbindung geschoben, und mit der Ringmutter (BT 39) gesichert.
+\vspace{-15pt}
+\begin{flushright}
+    \begin{minipage}{0.45\textwidth}
+      \fbox{\includegraphics[width=\textwidth]{../TexBilder/Bauschritt12.png}}
+      \vspace{-20pt}
+      \captionof{figure}{\label{fig:Bauschritt12}Schnitt durch die montierten Rotoren (gedreht um 90° im Uhrzeigersinn)} 
+    \end{minipage}
+\end{flushright}
+
+\newpage
+\section{Bauteile}
+Es folgt die Gewichts- und Kostenabschätzung aller verwendeten Bauteile und Elemente.
+
+\subsection{Payloadsimulator}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Payload.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+Kostenfaktor aus R/M: ?
+Volumen: 18136 mm3
+Masse: 0.145kg
+Kosten pro kg: 0.58
+
+\newpage
+\subsection{Zahnrad, unten, Mitte}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Z_U_M.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+Kostenfaktor aus R/M: Vergleichbar 1.7005 -> 2.6 \\
+\end{center}
+Mit Materialkosten von \euro0.58 und einem Werkstoffaktor von 2.6 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $2.6 \cdot 0.58\text{\euro/kg} \cdot 0.016\text{kg} = 0.024\text{\euro}$
+\end{center}
+Die Fertigung eines Zahnrads erfordert sowohl ca. eine halbe Stunde Bearbeitung in einer CNC-Fräse als auch eine Stunde Nachbearbeitung durch einen Facharbeiter. Die Arbeitskosten ergeben sich also zu:
+\begin{center}
+  $0.5\text{h} \cdot 45\text{\euro/h} + 1\text{h} \cdot 30\text{\euro/h} = 52,5\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro52,52}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 7.85kg/m$^3$ und einem Volumen von 1975,141 mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.016kg}
+\end{flushright}
+
+\newpage
+\subsection{Zahnrad, unten, außen}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Z_U_A.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: Vergleichbar 1.7005 -> 2.6 \\  
+\end{center}
+Mit Materialkosten von \euro0.58/kg und einem Werkstoffaktor von 2.6 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $2.6 \cdot 0.58\text{\euro/kg} \cdot 0.032\text{kg} = 0.048\text{\euro}$
+\end{center}
+Die Fertigung eines Zahnrads erfordert sowohl ca. eine halbe Stunde Bearbeitung in einer CNC-Fräse als auch eine Stunde Nachbearbeitung durch einen Facharbeiter. Die Arbeitskosten ergeben sich also zu:
+\begin{center}
+  $0.5\text{h} \cdot 45\text{\euro/h} + 1\text{h} \cdot 30\text{\euro/h} = 52,5\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro52,55}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 7.85kg/m$^3$ und einem Volumen von 4058,024 mm$^3$ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.032kg}
+\end{flushright}
+
+\newpage
+\subsection{Zahnrad, oben, außen}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Z_O_A.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: Vergleichbar 1.7005 -> 2.6
+\end{center}
+Mit Materialkosten von \euro0.58/kg und einem Werkstoffaktor von 2.6 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $2.6 \cdot 0.58\text{\euro/kg} \cdot 0.12\text{kg} = 0.18\text{\euro}$
+\end{center}
+Die Fertigung eines Zahnrads erfordert sowohl ca. eine halbe Stunde Bearbeitung in einer CNC-Fräse als auch eine Stunde Nachbearbeitung durch einen Facharbeiter. Die Arbeitskosten ergeben sich also zu:
+\begin{center}
+  $0.5\text{h} \cdot 45\text{\euro/h} + 1\text{h} \cdot 30\text{\euro/h} = 52,5\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro52,68}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 7.85kg/m$^3$ und einem Volumen von 15240,321 mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.12kg}
+\end{flushright}
+
+\newpage
+\subsection{Zahnrad, unten, innen}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Z_U_I.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: Vergleichbar 1.7005 -> 2.6 \\
+\end{center}
+Mit Materialkosten von \euro0.58/kg und einem Werkstoffaktor von 2.6 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $2.6 \cdot 0.58\text{\euro/kg} \cdot 0.02\text{kg} = 0.03\text{\euro}$
+\end{center}
+Die Fertigung eines Zahnrads erfordert sowohl ca. eine halbe Stunde Bearbeitung in einer CNC-Fräse als auch eine Stunde Nachbearbeitung durch einen Facharbeiter. Die Arbeitskosten ergeben sich also zu:
+\begin{center}
+  $0.5\text{h} \cdot 45\text{\euro/h} + 1\text{h} \cdot 30\text{\euro/h} = 52,5\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro52,53}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 7.85kg/m$^3$ und einem Volumen von 2505,474 mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.02kg}
+\end{flushright}
+
+\newpage
+\subsection{Getriebewelle, innen}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/GetriebeWelle1.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: Vergleichbar 1.6580 -> 2.7 \\
+\end{center}
+Mit Materialkosten von \euro0.58/kg und einem Werkstoffaktor von 2.7 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $2.7 \cdot 0.58\text{\euro/kg} \cdot 0.014\text{kg} = 0.02\text{\euro}$
+\end{center}
+Die Fertigung der Getriebewelle erfordert 1.5 Stunden in einer Drehbank, so ergeben sich die Bearbeitungskosten zu 
+\begin{center}
+  $1.5\text{h} \cdot 45\text{\euro/h} = 67,5\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro67,52}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 7.85kg/m$^3$ und einem Volumen von 1799,033mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.014kg}
+\end{flushright}
+
+\newpage
+\subsection{Getriebewelle, außen}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/GetriebeWelle2.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: Vergleichbar 1.6580 -> 2.7 \\
+\end{center}
+Mit Materialkosten von \euro0.58/kg und einem Werkstoffaktor von 2.7 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $2.7 \cdot 0.58\text{\euro/kg} \cdot 0.025\text{kg} = 0.04\text{\euro}$
+\end{center}
+Die Fertigung der Getriebewelle erfordert 1.5 Stunden in einer Drehbank und 1 Stunde in der CNC-Fräse, so ergeben sich die Bearbeitungskosten zu 
+\begin{center}
+  $2.5\text{h} \cdot 45\text{\euro/h} = 112.5\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro112,54}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 7.85kg/m$^3$ und einem Volumen von 3160,699mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.025kg}
+\end{flushright}
+
+\newpage
+\subsection{Rotorvollwelle}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.8\textwidth]{../TexBilder/Vollwelle.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: Vergleichbar 1.6580 -> 2.7 \\
+\end{center}
+Mit Materialkosten von \euro0.58/kg und einem Werkstoffaktor von 2.7 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $2.7 \cdot 0.58\text{\euro/kg} \cdot 0.075\text{kg} = 0.12\text{\euro}$
+\end{center}
+Die Fertigung der Getriebewelle erfordert 2 Stunden in einer Drehbank und 1 Stunde in der CNC-Fräse, sowie eine Stunde Bearbeitung durch einen Facharbeiter. So ergeben sich die Bearbeitungskosten zu 
+\begin{center}
+  $3\text{h} \cdot 45\text{\euro/h} + 1\text{h} \cdot 30\text{\euro/h}= 165\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro165,12}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 7.85kg/m$^3$ und einem Volumen von 9578,866 mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.075kg}
+\end{flushright}
+
+\newpage
+\subsection{Rotorhohlwelle}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.6\textwidth]{../TexBilder/Hohlwelle.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: Vergleichbar 1.6580 -> 2.7 \\
+\end{center}
+Mit Materialkosten von \euro0.58/kg und einem Werkstoffaktor von 2.7 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $2.7 \cdot 0.58\text{\euro/kg} \cdot 0.131\text{kg} = 0.21\text{\euro}$
+\end{center}
+An diesem Ergebnis ist zu beachten das durch die integrale Bauweise von Zahnrad und Welle ein sehr hoher Anteil des Rohmaterials (ca. 90\%) entfernt werden. Die Kosten für ein entsprechendes Halbzeug könnten wesentlich höher sein.
+
+Die Fertigung der Getriebewelle erfordert 1 Stunde in einer Drehbank und 3 Stunden in der CNC-Fräse, sowie 1.5 Stunden Bearbeitung durch einen Facharbeiter. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $4\text{h} \cdot 45\text{\euro/h} + 1,5\text{h} \cdot 30\text{\euro/h}= 225,00\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro225,21}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 7.85kg/m$^3$ und einem Volumen von 16629,232mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.131kg}
+\end{flushright}
+
+\newpage
+\subsection{Gehäuseteil 1}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Case1.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0.319\text{kg} = 1,95\text{\euro}$
+\end{center}
+Die Fertigung des Gehäuses benötigt 3 Stunden in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $3\text{h} \cdot 45\text{\euro/h}= 135,00\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro136,95}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 118019,913 mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.319kg}
+\end{flushright}
+
+
+\newpage
+\subsection{Gehäuseteil 2}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Case2.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0.412\text{kg} = 2,52\text{\euro}$
+\end{center}
+Die Fertigung des Gehäuses benötigt 2.5 Stunden in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $2.5\text{h} \cdot 45\text{\euro/h}= 112,50\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro115,02}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 152764,302mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.412kg}
+\end{flushright}
+
+\newpage
+\subsection{Gehäuseplatte 1}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.5\textwidth]{../TexBilder/Platte1.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0,083\text{kg} = 0,51\text{\euro}$
+\end{center}
+Die Fertigung der Platte benötigt 0.5 Stunden in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $0.5\text{h} \cdot 45\text{\euro/h}= 67,50\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro23,01}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 30822,889mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.083kg}
+\end{flushright}
+
+\newpage
+\subsection{Gehäuseplatte 2}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.5\textwidth]{../TexBilder/Platte2.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0,024\text{kg} = 0,15\text{\euro}$
+\end{center}
+Die Fertigung der Platte benötigt 0.5 Stunden in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $0.5\text{h} \cdot 45\text{\euro/h}= 22.5\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro22,65}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 9038,593mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.024kg}
+\end{flushright}
+
+\newpage
+\subsection{Gehäuseplatte 3}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Platte3.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0,099\text{kg} = 0,51\text{\euro}$
+\end{center}
+Die Fertigung der Platte benötigt 0.5 Stunden in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $0.5\text{h} \cdot 45\text{\euro/h}= 22,50\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro23,01}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 36576,748mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.099kg}
+\end{flushright}
+
+\newpage
+\subsection{Gehäuseplatte 4}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Platte4.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0,028\text{kg} = 0,17\text{\euro}$
+\end{center}
+Die Fertigung der Platte benötigt 0.75 Stunden in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $0.75\text{h} \cdot 45\text{\euro/h}= 33,75\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro33,92}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 10330,374mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.028kg}
+\end{flushright}
+
+\newpage
+\subsection{Gehäuseplatte 5}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Platte5.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0,083\text{kg} = 0,51\text{\euro}$
+\end{center}
+Die Fertigung der Platte benötigt 0.75 Stunden in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $0.75\text{h} \cdot 45\text{\euro/h}= 33,75\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro34,26}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 30568,902mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.083kg}
+\end{flushright}
+
+\newpage
+\subsection{Gehäuseplatte 6}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Platte6.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0,045\text{kg} = 0,28\text{\euro}$
+\end{center}
+Die Fertigung der Platte benötigt 0.75 Stunden in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $0.75\text{h} \cdot 45\text{\euro/h}= 33,75\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro34,03}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 45148,537mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.045kg}
+\end{flushright}
+
+\newpage
+\subsection{Gehäuseplatte 7}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Platte7.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0,014\text{kg} = 0,09\text{\euro}$
+\end{center}
+Die Fertigung der Platte benötigt 0.75 Stunden in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $0.75\text{h} \cdot 45\text{\euro/h}= 33,75\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro33,84}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 14025,547mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.014kg}
+\end{flushright}
+
+\newpage
+\subsection{Gehäuseplatte 8}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.6\textwidth]{../TexBilder/Platte8.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0,021\text{kg} = 0,13\text{\euro}$
+\end{center}
+Die Fertigung der Platte benötigt 0.75 Stunden in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $0.75\text{h} \cdot 45\text{\euro/h}= 33,75\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro33,88}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 21096,614mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.021kg}
+\end{flushright}
+
+
+\newpage
+\subsection{Deckel}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.6\textwidth]{../TexBilder/Deckel.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0,189\text{kg} = 0,13\text{\euro}$
+\end{center}
+Die Fertigung der Platte benötigt 1.5 Stunden in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $1.5\text{h} \cdot 45\text{\euro/h}= 67,50\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro67,63}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 69996,172mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.189kg}
+\end{flushright}
+
+\newpage
+\subsection{Rückwand}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Ruckwand.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0,074\text{kg} = 0,45\text{\euro}$
+\end{center}
+Die Fertigung der Rückwand benötigt 1 Stunde in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $1\text{h} \cdot 45\text{\euro/h}= 45\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro45,45}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 27301,607mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.074kg}
+\end{flushright}
+
+\newpage
+\subsection{Stütze 1}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Stuetze1.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0,016\text{kg} = 0,10\text{\euro}$
+\end{center}
+Die Fertigung der Stütze benötigt 1.5 Stunden in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $1.5\text{h} \cdot 45\text{\euro/h}= 67,50\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro67,60}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 5889,410mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.016kg}
+\end{flushright}
+
+\newpage
+\subsection{Aufbau Horizontalverbindungen}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.8\textwidth]{../TexBilder/HorizRechts.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0,044\text{kg} = 0,27\text{\euro}$
+\end{center}
+Die Fertigung der Horizontalverbindung benötigt 0.5 Stunden in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $0.5\text{h} \cdot 45\text{\euro/h}= 22,50\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro22,77}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 16207,707mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.044kg}
+\end{flushright}
+
+\newpage
+\subsection{Stütze 2}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.6\textwidth]{../TexBilder/Stuetze2.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: EWAN-6060 -> 3
+\end{center}
+Mit Materialkosten von \euro2.04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2.04\text{\euro/kg} \cdot 0,031\text{kg} = 0,19\text{\euro}$
+\end{center}
+Die Fertigung der Stütze benötigt 1 Stunde in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $1\text{h} \cdot 45\text{\euro/h}= 45\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro45,19}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 11505,884mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.031kg}
+\end{flushright}
+
+\newpage
+\subsection{Landebeine}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Landebein.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: 5,8
+\end{center}
+Mit Materialkosten von \euro0,58/kg und einem Werkstoffaktor von 5.8 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $5.8 \cdot 0,58\text{\euro/kg} \cdot 0,145\text{kg} = 0,49\text{\euro}$
+\end{center}
+Die Fertigung der beiden Landebeine benötigt 4.5 Stunden in der CNC-Fräse. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $4.5\text{h} \cdot 45\text{\euro/h}= 202,5\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro202,99}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 7.85kg/m$^3$ und einem Volumen von 18136,137mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.145kg}
+\end{flushright}
+
+\newpage
+\subsection{Pin}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/PinIsolated.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: 3
+\end{center}
+Mit Materialkosten von \euro2,04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2,04\text{\euro/kg} \cdot 0,001\text{kg} = 0,49\text{\euro}$
+\end{center}
+Hier wird mit einem Bauteilgewicht von einem Gramm gerechnet, um realistische Zahlen zu erhalten. Diese stimmen explizit nicht mit der Massenberechnung überein!
+
+Die Fertigung der 4 Pins benötigt 0.5 Stunden in der Drehbank. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $0.5\text{h} \cdot 45\text{\euro/h}= 22,50\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro22,99}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 16,348mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.000kg bzw. in Gramm: 0,044g}
+\end{flushright}
+
+\newpage
+\subsection{Sicherungspin}
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=.4\textwidth]{../TexBilder/Sicherungspin.png}}
+  \vspace{-10pt}
+  %\captionof{figure}{\label{fig:Landebein}Eins von zwei Landebeinen}
+\end{figure}
+\subsubsection{Kostenabschätzung}
+\begin{center}
+  Kostenfaktor aus R/M: 3
+\end{center}
+Mit Materialkosten von \euro2,04/kg und einem Werkstoffaktor von 3 ergibt sich der Gesamtpreis für das Rohmaterial zu: 
+\begin{center}
+    $3 \cdot 2,04\text{\euro/kg} \cdot 0,001\text{kg} = 0,49\text{\euro}$
+\end{center}
+Hier wird mit einem Bauteilgewicht von einem Gramm gerechnet, um realistische Zahlen zu erhalten. Diese stimmen explizit nicht mit der Massenberechnung überein!
+
+Für die Fertigung des Pins benötigt ein Facharbeiter 3 Stunden. So ergeben sich die Bearbeitungskosten zu:
+\begin{center}
+  $3\text{h} \cdot 30\text{\euro/h}= 90\text{\euro}$
+\end{center}
+Somit liegen die Gesamtkosten bei:
+\begin{flushright}
+  \uuline{\euro90,49}
+\end{flushright}
+\subsubsection{Gewichtsabschätzung}
+Mit einer Dichte von 2.7kg/m$^3$ und einem Volumen von 31,961mm$^3$ ergibt sich eine Masse von:
+\begin{flushright}
+  \uuline{0.000kg bzw. in Gramm: 0,086g}
+\end{flushright}
 
 \end{document}

@@ -1,8 +1,89 @@
 \babel@toc {german}{}\relax 
-\contentsline {section}{\numberline {1}Zusammenbauanleitung}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Erläuterung zu Begrifflichkeiten und Verfahren}{1}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Getriebewellen, untere Lager und Zahnräder sowie Halterung}{1}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Getriebewellen, mittlere Zahnräder und \allowbreak Halterung}{1}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Obere Zahnräder und Rotorhohlwelle}{2}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Zusammenbau des Gehäuses und Installation des Getriebes}{2}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Montage auf der Bodenplatte}{4}{subsection.1.6}%
+\contentsline {section}{\numberline {1}Zusammenbauanleitung}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Erläuterung zu Begrifflichkeiten und Verfahren}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Getriebewellen, untere Lager und Zahnräder sowie Halterung}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Getriebewellen, mittlere Zahnräder und \allowbreak Halterung}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Obere Zahnräder und Rotorhohlwelle}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Zusammenbau des Gehäuses und Installation des Getriebes}{4}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Montage auf der Bodenplatte}{6}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Bauteile}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Payloadsimulator}{7}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Kostenabschätzung}{7}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Zahnrad, unten, Mitte}{8}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Kostenabschätzung}{8}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Gewichtsabschätzung}{8}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Zahnrad, unten, außen}{9}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Kostenabschätzung}{9}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Gewichtsabschätzung}{9}{subsubsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.4}Zahnrad, oben, außen}{10}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Kostenabschätzung}{10}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Gewichtsabschätzung}{10}{subsubsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.5}Zahnrad, unten, innen}{11}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Kostenabschätzung}{11}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Gewichtsabschätzung}{11}{subsubsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.6}Getriebewelle, innen}{12}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Kostenabschätzung}{12}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Gewichtsabschätzung}{12}{subsubsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.7}Getriebewelle, außen}{13}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Kostenabschätzung}{13}{subsubsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.2}Gewichtsabschätzung}{13}{subsubsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.8}Rotorvollwelle}{14}{subsection.2.8}%
+\contentsline {subsubsection}{\numberline {2.8.1}Kostenabschätzung}{14}{subsubsection.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.8.2}Gewichtsabschätzung}{14}{subsubsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.9}Rotorhohlwelle}{15}{subsection.2.9}%
+\contentsline {subsubsection}{\numberline {2.9.1}Kostenabschätzung}{15}{subsubsection.2.9.1}%
+\contentsline {subsubsection}{\numberline {2.9.2}Gewichtsabschätzung}{15}{subsubsection.2.9.2}%
+\contentsline {subsection}{\numberline {2.10}Gehäuseteil 1}{16}{subsection.2.10}%
+\contentsline {subsubsection}{\numberline {2.10.1}Kostenabschätzung}{16}{subsubsection.2.10.1}%
+\contentsline {subsubsection}{\numberline {2.10.2}Gewichtsabschätzung}{16}{subsubsection.2.10.2}%
+\contentsline {subsection}{\numberline {2.11}Gehäuseteil 2}{17}{subsection.2.11}%
+\contentsline {subsubsection}{\numberline {2.11.1}Kostenabschätzung}{17}{subsubsection.2.11.1}%
+\contentsline {subsubsection}{\numberline {2.11.2}Gewichtsabschätzung}{17}{subsubsection.2.11.2}%
+\contentsline {subsection}{\numberline {2.12}Gehäuseplatte 1}{18}{subsection.2.12}%
+\contentsline {subsubsection}{\numberline {2.12.1}Kostenabschätzung}{18}{subsubsection.2.12.1}%
+\contentsline {subsubsection}{\numberline {2.12.2}Gewichtsabschätzung}{18}{subsubsection.2.12.2}%
+\contentsline {subsection}{\numberline {2.13}Gehäuseplatte 2}{19}{subsection.2.13}%
+\contentsline {subsubsection}{\numberline {2.13.1}Kostenabschätzung}{19}{subsubsection.2.13.1}%
+\contentsline {subsubsection}{\numberline {2.13.2}Gewichtsabschätzung}{19}{subsubsection.2.13.2}%
+\contentsline {subsection}{\numberline {2.14}Gehäuseplatte 3}{20}{subsection.2.14}%
+\contentsline {subsubsection}{\numberline {2.14.1}Kostenabschätzung}{20}{subsubsection.2.14.1}%
+\contentsline {subsubsection}{\numberline {2.14.2}Gewichtsabschätzung}{20}{subsubsection.2.14.2}%
+\contentsline {subsection}{\numberline {2.15}Gehäuseplatte 4}{21}{subsection.2.15}%
+\contentsline {subsubsection}{\numberline {2.15.1}Kostenabschätzung}{21}{subsubsection.2.15.1}%
+\contentsline {subsubsection}{\numberline {2.15.2}Gewichtsabschätzung}{21}{subsubsection.2.15.2}%
+\contentsline {subsection}{\numberline {2.16}Gehäuseplatte 5}{22}{subsection.2.16}%
+\contentsline {subsubsection}{\numberline {2.16.1}Kostenabschätzung}{22}{subsubsection.2.16.1}%
+\contentsline {subsubsection}{\numberline {2.16.2}Gewichtsabschätzung}{22}{subsubsection.2.16.2}%
+\contentsline {subsection}{\numberline {2.17}Gehäuseplatte 6}{23}{subsection.2.17}%
+\contentsline {subsubsection}{\numberline {2.17.1}Kostenabschätzung}{23}{subsubsection.2.17.1}%
+\contentsline {subsubsection}{\numberline {2.17.2}Gewichtsabschätzung}{23}{subsubsection.2.17.2}%
+\contentsline {subsection}{\numberline {2.18}Gehäuseplatte 7}{24}{subsection.2.18}%
+\contentsline {subsubsection}{\numberline {2.18.1}Kostenabschätzung}{24}{subsubsection.2.18.1}%
+\contentsline {subsubsection}{\numberline {2.18.2}Gewichtsabschätzung}{24}{subsubsection.2.18.2}%
+\contentsline {subsection}{\numberline {2.19}Gehäuseplatte 8}{25}{subsection.2.19}%
+\contentsline {subsubsection}{\numberline {2.19.1}Kostenabschätzung}{25}{subsubsection.2.19.1}%
+\contentsline {subsubsection}{\numberline {2.19.2}Gewichtsabschätzung}{25}{subsubsection.2.19.2}%
+\contentsline {subsection}{\numberline {2.20}Deckel}{26}{subsection.2.20}%
+\contentsline {subsubsection}{\numberline {2.20.1}Kostenabschätzung}{26}{subsubsection.2.20.1}%
+\contentsline {subsubsection}{\numberline {2.20.2}Gewichtsabschätzung}{26}{subsubsection.2.20.2}%
+\contentsline {subsection}{\numberline {2.21}Rückwand}{27}{subsection.2.21}%
+\contentsline {subsubsection}{\numberline {2.21.1}Kostenabschätzung}{27}{subsubsection.2.21.1}%
+\contentsline {subsubsection}{\numberline {2.21.2}Gewichtsabschätzung}{27}{subsubsection.2.21.2}%
+\contentsline {subsection}{\numberline {2.22}Stütze 1}{28}{subsection.2.22}%
+\contentsline {subsubsection}{\numberline {2.22.1}Kostenabschätzung}{28}{subsubsection.2.22.1}%
+\contentsline {subsubsection}{\numberline {2.22.2}Gewichtsabschätzung}{28}{subsubsection.2.22.2}%
+\contentsline {subsection}{\numberline {2.23}Aufbau Horizontalverbindungen}{29}{subsection.2.23}%
+\contentsline {subsubsection}{\numberline {2.23.1}Kostenabschätzung}{29}{subsubsection.2.23.1}%
+\contentsline {subsubsection}{\numberline {2.23.2}Gewichtsabschätzung}{29}{subsubsection.2.23.2}%
+\contentsline {subsection}{\numberline {2.24}Stütze 2}{30}{subsection.2.24}%
+\contentsline {subsubsection}{\numberline {2.24.1}Kostenabschätzung}{30}{subsubsection.2.24.1}%
+\contentsline {subsubsection}{\numberline {2.24.2}Gewichtsabschätzung}{30}{subsubsection.2.24.2}%
+\contentsline {subsection}{\numberline {2.25}Landebeine}{31}{subsection.2.25}%
+\contentsline {subsubsection}{\numberline {2.25.1}Kostenabschätzung}{31}{subsubsection.2.25.1}%
+\contentsline {subsubsection}{\numberline {2.25.2}Gewichtsabschätzung}{31}{subsubsection.2.25.2}%
+\contentsline {subsection}{\numberline {2.26}Pin}{32}{subsection.2.26}%
+\contentsline {subsubsection}{\numberline {2.26.1}Kostenabschätzung}{32}{subsubsection.2.26.1}%
+\contentsline {subsubsection}{\numberline {2.26.2}Gewichtsabschätzung}{32}{subsubsection.2.26.2}%
+\contentsline {subsection}{\numberline {2.27}Sicherungspin}{33}{subsection.2.27}%
+\contentsline {subsubsection}{\numberline {2.27.1}Kostenabschätzung}{33}{subsubsection.2.27.1}%
+\contentsline {subsubsection}{\numberline {2.27.2}Gewichtsabschätzung}{33}{subsubsection.2.27.2}%
