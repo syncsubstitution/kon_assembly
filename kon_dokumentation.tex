@@ -1,4 +1,4 @@
-\documentclass[11pt, a4paper]{scrartcl}
+\documentclass[10pt, a4paper]{article}
 
 \usepackage[german]{babel}
 \usepackage[paper=a4paper,bottom=3cm,top=3cm,left=2.5cm,right=2.5cm]{geometry}
@@ -8,13 +8,16 @@
 
 \usepackage{graphicx}
 \usepackage{wrapfig}
-\usepackage{caption}
+\usepackage[justification=centering]{caption}
+\usepackage{subcaption}
 \usepackage{hyperref}
+\usepackage{xcolor}
 
 \usepackage{epstopdf}
 \usepackage{amsmath}
-\usepackage{amsfonts}
+%\usepackage{amsfonts}
 
+\newcommand{\CaptSpac}{-10pt}
 \newcommand*{\rom}[1]{\expandafter\uppercase\expandafter{\romannumeral #1 \relax}}
 \newcounter{RowNum}
 \newcommand{\RowNum}{\stepcounter{RowNum}\arabic{RowNum}}
@@ -27,71 +30,112 @@
 
 \begin{document}
 
+\setlength{\fboxsep}{0pt}%
+\setlength{\fboxrule}{1pt}%
+
 \tableofcontents
 
 \section{Zusammenbauanleitung\label{AnleitungMain}}
+\subsection{Erläuterung zu Begrifflichkeiten und Verfahren}
+\begin{wrapfigure}{r}{0.31\textwidth}  
+  \vspace{-12pt}
+  \fbox{\includegraphics[width=0.3\textwidth]{../TexBilder/Wellen_Uebersicht.png}}
+  \vspace{\CaptSpac}
+  \caption{\label{fig:WellenOverview}Die Wellen - nicht im gleichen Maßstab!}
+  \fbox{\includegraphics[width=0.3\textwidth]{../TexBilder/Bauschritt1.png}}
+  \vspace{\CaptSpac}
+  \caption{\label{fig:Bauschritt1}Installation der Lager mit Sicherungsring}
+  \fbox{\includegraphics[width=0.3\textwidth]{../TexBilder/Bauschritt2.png}}   
+  \vspace{\CaptSpac}
+  \caption{\label{fig:Bauschritt2}Drei Vollwellen in der Gehäuseplatte} 
+  \fbox{\includegraphics[width=0.3\textwidth]{../TexBilder/Bauschritt3.png}}     
+  \vspace{\CaptSpac}
+  \caption{\label{fig:Bauschritt3}Montierte und gesicherte Zahnräder}
+  \fbox{\includegraphics[width=.3\textwidth]{../TexBilder/Bauschritt4.png}}
+  \vspace{\CaptSpac}
+  \caption{\label{fig:Bauschritt4}Gehäuseplatte 3 und Lager montiert}
+  \vspace{-80pt}
+\end{wrapfigure}
+Der Zusammenbau des Helikopters erfolgt in mehreren Phasen, und muss in der vorgegebenen Reihenfolge durchgeführt werden, um die Konstruktion aller Bauteile (BT) zu ermöglichen. In manchen Darstellungen fehlen Bauteile, die im Text erwähnt sind. Hier gilt immer: Dem Text ist zu folgen! 
+Begonnen wird mit dem Motor und dem Getriebe. Die Montage der Bauteilen auf den drei Getriebevollwellen (zwei kurze, eine lange mit Rotoranschluss, respektiv BT \hyperlink{Welle1}{12}, 13, 14) \allowbreak erfolgt von ''unten'' nach ''oben'' - siehe Abbildung \ref{fig:WellenOverview} für die Orientierung der jeweiligen \allowbreak Wellen.
+\subsection{Getriebewellen, untere Lager und Zahnräder sowie Halterung}
+Als erstes wird an den äußeren Getriebewellen das erste Lager und der darauf folgende Sicherungsring montiert. Hierbei handelt es sich um Bauteile 36 respektive 51. Ist dies geschehen (Abbildung \ref{fig:Bauschritt1}), können die drei Vollwellen in die ersten zwei Gehäuseplatten montiert werden. Hierbei handelt es sich um die Bauteile \hyperlink{list_Platte1}{18} und \hyperlink{list_Platte1}{19}. Die Lager liegen wie in der Abbildung auf den vorstehenden Lochsegmenten, und werden mit der zweiten Gehäuseplatte gesichert. Danach wird die Rotorvollwelle (BT 14) in die noch freie Bohrung eingefügt. Ist dies erledigt (Abbildung \ref{fig:Bauschritt2}), können die unteren drei Zahnräder an den Getriebevollwellen befestigt werden. Hierfür wird an den äußeren beiden Wellen ein Sicherungsring (9mm, BT 51) angebracht, auf dem die Zahnräder - für Welle \rom{1} und \rom{2} respektive BT 8 und 9 - ruhen. Für die Rotorvollwelle ruht das Zahnrad (BT 11) auf dem Motoranschluss. Die Zahnräder sind jeweils auf den Polygonsegmente zu montieren, so das bei den äußeren Zahnrädern die Vertiefung in der Radoberfläche nach ''unten'' zeigen, also den Sicherungsring umschließen. Danach ist über allen Rädern an der Welle ein 8mm Sicherungsring (BT 50) zu befestigen.
+\subsection{Getriebewellen, mittlere Zahnräder und \allowbreak Halterung}
+Die Rotorvollwelle und die mittlere Getriebewelle erhalten noch einen zweiten 8mm Sicherungring, bevor die dritte Gehäuseplatte (BT 20) über alle Wellen gelegt wird. Auf den Wellen auf denen zuvor der Sicherungring montiert wurde, wird nun jeweils ein 8mm Rillenkugellager (BT 35), sowie ein darauf folgender 8mm Sicherungring (BT 50) befestigt. Es folgt Gehäuseplatte 4 (BT 21) und an der Rotorvollwelle wieder ein 8mm Sicherungring (BT 50), die Gehäuseplatte 5 (BT 22) und ein 8mm Rillenkugellager (BT 35). An der äußeren Getriebewelle wird knapp oberhalb der Platte ein 8mm Sicherungring (BT 50) angebracht.
 
-Der Zusammenbau des Helikopters erfolgt in mehreren Phasen, und muss in der vorgegebenen Reihenfolge durchgeführt werden, um die Konstruktion aller Bauteile (BT) zu ermöglichen. Begonnen wird mit dem Motor und dem Getriebe. Die Montage der Bauteilen auf den drei Getriebevollwellen (zwei kurze, eine lange mit Rotoranschluss, respektiv BT \hyperlink{Welle1}{10}, XY, XZ) erfolgt von "unten" nach "oben" - siehe Bild %\label{BildWellen}
-für die Orientation der jeweiligen Wellen. Als erstes wird an allen Wellen der unterste Sicherungsring, das erste Lager und der darauf folgende Sicherungsring montiert. Hierbei handelt es sich für \hyperlink{Welle1}{Welle \rom{1}} um Bauteile XXXXXX, Welle  \rom{2} um XZXZXZ und Welle \rom{3} um XYXYXY. Ist dies geschehen, können die drei Vollwellen in die ersten drei Gehäuseplatten montiert werden. Hierbei handelt es sich um die Bauteile \hyperlink{list_Platte1}{XX}
-\hyperlink{list_Platte1}{XY} und \hyperlink{list_Platte1}{XZ}. Zuerst muss der Sicherungsring in Platte 1 eingelegt werden, dann wird Platte 2 auf die Lager montiert. Am Ende kann die dritte Platte als Deckel auf die beiden Platten gelegt werden. 
+\subsection{Obere Zahnräder und Rotorhohlwelle}
+\begin{wrapfigure}{r}{0.31\textwidth}
+  \vspace{-10pt}
+  \fbox{\includegraphics[width=0.3\textwidth]{../TexBilder/Bauschritt5.png}}
+  \vspace{\CaptSpac}
+  \caption{\label{fig:Bauschritt5}Montage sämtlicher Bauteile bis Bauschritt 1.4}
+  \fbox{\includegraphics[width=0.3\textwidth]{../TexBilder/Bauschritt6.png}}
+  \vspace{\CaptSpac}
+  \caption{\label{fig:Bauschritt6}Zahnrad und Rotorhohlwelle montiert - in der Abbildung fehlen die 6mm Sicherungsringe!}
+  \fbox{\includegraphics[width=0.3\textwidth]{../TexBilder/Bauschritt7.png}}  
+  \vspace{\CaptSpac}
+  \caption{\label{fig:Bauschritt7}Die oberen Lager montiert und in den Platten gesichert} 
+  \fbox{\includegraphics[width=0.3\textwidth]{../TexBilder/CaseIsolated.png}}     
+  \vspace{\CaptSpac}
+  \caption{\label{fig:Case}Gehäuseteil 1 mit Rückwand}
+  \vspace{-10pt}
+\end{wrapfigure}
+Es folgen Zahnrad 4 (BT 10) und der Zahnradanschluss der Rotorhohlwelle. Diese werden respektiv auf dem oberen Polygon der äußeren Getriebewelle sowie erst einmal lose auf der Gehäuseplatte montiert. An der äußeren Getriebewelle werden zwei 6mm Sicherungsringe (BT 54) über dem Zahnrad und in der darauf folgenden Ringnut befestigt, an der Rotorhohlwelle wird ein 15mm Sicherungring (BT 53) montiert. Danach wird Gehäuseplatte 6 (BT 23) über die beiden Wellen gelegt. Es folgen ein 6mm Rillenkugellager (BT 34) und zwei 15mm Rillenkugellager (BT 37) sowie ein 6mm und zwei 15mm Sicherungringe (BT 53) für respektive die äußere Getriebewelle und die Rotorhohlwelle. Sind diese montiert, kann Gehäuseplatte 7 (BT 24) auf Platte 6 gelegt werden. Schlussendlich wird noch ein 15mm Sicherungring (BT 53) an der Rotorhohlwelle befestigt, und Gehäuseplatte 8 (BT 25) als Deckel auf das Getriebe gelegt. 
 
-% Table generated by Excel2LaTeX from sheet 'BOM'
-\begin{table}[htbp]
-    \centering
-    \caption{Stückliste}
-      \begin{tabular}{|l|l|l|l|r|}
-      Item  & Part Number & BOM Structure & Unit QTY & \multicolumn{1}{l|}{QTY} \\
-      1     & Batterie & Normal & Each  & 1 \\
-      2     & Controlstack & Normal & Each  & 1 \\
-      3     & Bodenplatte & Normal & Each  & 1 \\
-      4     & Motor & Normal & Each  & 1 \\
-      5     & Lagerhalterung 1 & Normal & Each  & 1 \\
-      6     & Spur Gear1 & Normal & Each  & 2 \\
-      7     & Spur Gear2 & Normal & Each  & 3 \\
-      8     & Lagerhalterung 2 & Normal & Each  & 1 \\
-      9     & Rillenkugellager & Normal & Each  & 5 \\
-      10    & \hypertarget{Welle1}{Getriebewelle 2} & Normal & Each  & 1 \\
-      11    & Getriebewelle 1 & Normal & Each  & 1 \\
-      12    & Sicherungsring & Normal & Each  & 14 \\
-      13    & Vollwelle & Normal & Each  & 1 \\
-      14    & Lagerhalterung 3 & Normal & Each  & 1 \\
-      15    & Lagerhalterung 4 & Normal & Each  & 1 \\
-      16    & Lagerhalterung 5 & Normal & Each  & 1 \\
-      17    & Lagerhalterung 6 & Normal & Each  & 1 \\
-      18    & Rillenkugellager 2 & Normal & Each  & 1 \\
-      19    & Rillenkugellager 3 & Normal & Each  & 2 \\
-      20    & Sicherungsring 3 & Normal & Each  & 4 \\
-      21    & Lagerhalterung 7 & Normal & Each  & 1 \\
-      22    & Lagerhalterung 8 & Normal & Each  & 1 \\
-      23    & Getriebegehäuse 1 & Normal & Each  & 1 \\
-      24    & Getriebegehäuse 2 & Normal & Each  & 1 \\
-      25    & Getr.Geh.Rückwand & Normal & Each  & 1 \\
-      26    & Pin   & Normal & Each  & 4 \\
-      27    & Sicherungspin & Normal & Each  & 1 \\
-      28    & Rotor\_CW & Normal & Each  & 1 \\
-      29    & Rotor\_CCW & Normal & Each  & 1 \\
-      30    & Sicherungsring 4 & Normal & Each  & 2 \\
-      31    & Ringmutter & Normal & Each  & 1 \\
-      32    & Aufbaustrebe Horizontal & Normal & Each  & 2 \\
-      33    & Deckel & Normal & Each  & 1 \\
-      34    & Aufbaustütze 1 & Normal & Each  & 2 \\
-      35    & Aufbaustütze 2 & Normal & Each  & 2 \\
-      36    & Landebein & Normal & Each  & 2 \\
-      37    & Payloadsimulator & Normal & Each  & 1 \\
-      38    & Passschraube 1 & Normal & Each  & 6 \\
-      39    & Passschraube 2 & Normal & Each  & 8 \\
-      40    & Passschraube 3 & Normal & Each  & 6 \\
-      41    & Passschraube 4 & Normal & Each  & 2 \\
-      42    & Passschraube 5 & Normal & Each  & 2 \\
-      43    & Kronenmutter 1 & Normal & Each  & 25 \\
-      44    & Splint 1 & Normal & Each  & 1 \\
-      45    & Passschraube 6 & Normal & Each  & 4 \\
-      46    & Passschraube 7 & Normal & Each  & 2 \\
-      47    & Kronenmutter 2 & Normal & Each  & 4 \\
-      48    & Unterlegscheibe & Normal & Each  & 8 \\ 
-      \end{tabular}
-    \label{tab:addlabel}
-\end{table}
-  
+Bevor das Gehäuse um das Getriebe gefügt werden kann, muss der Motor mit der Rotorvollwelle verbunden werden. Hierfür dient ein spezieller Pin (BT 33), der mit einem 1.2mm Inbus-Schlüssel in die Welle-Motor-Verbindung eingesetzt werden muss. In Abbildung 10-12 ist dies bildlich dargestellt, als Sichthilfe ist die Gehäuseplatte 2 NICHT dargestellt. Dies ist in dieser Phase des Zusammenbaus nicht gegeben, die Installation muss visuell eingeschränkt stattfinden. Möglich, aber nicht empfohlen, ist eine Installation des Pins auch schon früher im Montageprozess. Zuerst wird der Pin durch den Motoranschluss geschoben, bis der L-förmige Vorsprung gegen die Rotorvollwelle stößt. Nun muss der Pin um ca. 180° gedreht werden, um in die vorgesehene Aussparung in der Rotorwelle zu passen. Ist dies geschehen, kann der Pin bis zum Anschlag durchgeschoben und mit einer 90° Drehung gegen den Uhrzeigersinn gesichert werden. 
+\vspace{-15pt}
+\begin{flushleft}
+  \begin{minipage}{0.22\textwidth}
+    \vspace{-11pt}
+    \fbox{\includegraphics[width=.98\linewidth]{../TexBilder/Pin1.png}}
+    \vspace{-20pt}
+    \captionof{figure}{Motorwellenpin wird eingefügt}
+  \end{minipage}
+  \begin{minipage}{0.22\textwidth}
+    \vspace{9pt}
+    \fbox{\includegraphics[width=.98\linewidth]{../TexBilder/Pin2.png}}
+    \vspace{-20pt}
+    \captionof{figure}{Ausrichtung des Pins zum Einbringen in die Wellenverbindung}
+  \end{minipage}
+  \begin{minipage}{0.22\textwidth}
+    \fbox{\includegraphics[width=.98\linewidth]{../TexBilder/Pin3.png}}
+    \vspace{-20pt}
+    \captionof{figure}{Endgültige Sicherung des Pins}
+  \end{minipage}
+\end{flushleft}
+
+\subsection{Zusammenbau des Gehäuses und Installation des Getriebes}
+Das Getriebe gilt es nun in dem ersten Gehäuseteil (BT 16) zu lagern. Hierfür sollte zuerst die Rückwand (BT 27) in dem Gehäuse montiert werden - hierfür wird diese in die vorgesehenen Führungsschienen gelegt, und bis zum Anschlag durchgeschoben. Gesichert wird sie mit einer 2mm Schraube. Das Gehäuse ist in mehrere Fächer unterteilt, in die es nun gilt die ''Bündel'' aus Gehäuseplatten einzuschieben. Es ist darauf zu achten, dass die Platten bis zum Anschlag (Kontakt mit der Rückwand) in dem Gehäuse sind. Zugleich sind die Toleranzen zwischen Gehäuse und Zahnrad und anderen Getriebeteilen sehr gering: Kollisionen, Scheuern und Schäden sind tunlichst zu vermeiden! Sämtliche Abstände entlang der Wellenachsen werden durch Lagerung im Gehäuses kontrolliert. Es kann nun die zweite Gehäusehälfte (BT 17) montiert werden, zuvor sind aber in den dafür vorgesehenen Bohrungen im ersten Gehäuseteil die 4 Verbindungspins (BT 32) zu montieren. Diese können bei der Montage für die Ausrichtung genutzt werden. Ist dieser Schritt komplett, ist das Getriebe fertig. Es folgt die Befestigung auf der Bodenplatte (BT 3)
+\vspace{-20pt}
+\begin{flushleft}
+  \begin{minipage}{0.33\textwidth}
+    \fbox{\includegraphics[width=.98\linewidth]{../TexBilder/CaseAssembly1.png}}
+    \vspace{-20pt}
+    \captionof{figure}{Die Gehäuseplatten im ersten Gehäuseteil - die Schraube an der Rückwand fehlt in dieser Darstellung!}
+  \end{minipage}
+  \begin{minipage}{0.33\textwidth}
+    \vspace{12pt}
+    \fbox{\includegraphics[width=.98\linewidth]{../TexBilder/CaseAssembly2.png}}
+    \vspace{-20pt}
+    \captionof{figure}{Ein Schnitt durch den Zusammenbau mit Gehäuseplatten in beiden Gehäuseteilen, hier rot schraffiert - der Motor ist nicht zu sehen.}
+  \end{minipage}
+\end{flushleft}
+
+\newpage
+\subsection{Montage auf der Bodenplatte}
+\begin{wrapfigure}{r}{0.31\textwidth}
+  \vspace{-10pt}
+  \fbox{\includegraphics[width=0.3\textwidth]{../TexBilder/Bauschritt8.png}}
+  \vspace{\CaptSpac}
+  \caption{\label{fig:Bauschritt8}Die Bodenplatte samt Landebeinen und Payloadsimulator}
+  \fbox{\includegraphics[width=0.3\textwidth]{../TexBilder/Bauschritt10.png}}
+  \vspace{\CaptSpac}
+  \caption{\label{fig:Bauschritt10}Batterie und Controlstack sowie Getriebegehäuse mit Motor auf der Bodenplatte} 
+  \vspace{-10pt}
+\end{wrapfigure}
+Die Montage auf der Bodenplatte beginnt mit den beiden Landebeinen (BT 31), die mit 5mm Passschrauben (BT 44), Unterlegscheiben (BT 48)  und Kronmutern (46) montiert und mit Splinten (BT 55) gesichert wird. Auf dem Landebein das bündig mit der Kante der Bodenplatte montiert wurde - diese Seite ist für den Rest des Zusammenbaus das ''hintere Ende'' - wird noch der Payloadsimulator festgeschraubt, dies geschieht mit zwei 4mm Passschrauben (BT 45).
+
+Der Motor und das Getriebegehäuse werden mit jeweils 6 4mm Passschrauben der Länge 10mm (BT 40), Unterlegscheiben (BT 56) und Splinten (BT 49) befestigt und gesichert. Genau so werden auch Batterie und Controlstack auf der Bodenplatte befestigt, siehe Abbildung \ref{fig:Bauschritt10} für die Anordnung der Bauteile. 
+
 
 \end{document}
